@@ -13,6 +13,18 @@ This will get you most of the way there. Make sure that when you login to your A
 to remember your password or the auto-launch feature won't work. If you're concerned about security, consider creating
 a secondary Amazon account just to use for this project.
 
+## Now, install some config files
+
+**This part is only necessary if you want to use a USB mic/speaker combo.**
+
+Copy the following files to the locations specified in comments on the first couple of lines of the files:
+
+* `aliases.conf`
+* `alsa-base.conf`
+* `config.txt`
+
+Copy `.asoundrc` to your home directory (`/home/pi` probably).
+
 ## Autostart on boot
 
 Most of the existing solutions don't support auto-launching the Alexa stack on boot. I do not claim to have an elegant
