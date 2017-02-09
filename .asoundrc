@@ -1,0 +1,2 @@
+pcm.!default plughw:0
+ctl.!default plughw:0
